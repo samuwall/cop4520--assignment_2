@@ -2,7 +2,7 @@
 
 ## Overall statements
 
-Locks are implemented using C++'s <atomic> and the attached .exchange() , .store() , etc. functions. 
+Locks are implemented using C++'s atomic and the attached .exchange() , .store() , etc. functions. 
 
 Efficiency is achieved through the streamlined design and the use of std::memory_order macros.
 
